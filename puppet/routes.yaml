@@ -1,0 +1,4 @@
+apply:
+  facts:
+    terminus: facter
+    cache: facter

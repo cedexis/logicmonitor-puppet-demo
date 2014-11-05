@@ -1,0 +1,3 @@
+# /!\ This file is managed by puppet. You can't change it manually, instead
+# edit modules/snmpd/files/snmpd.default. 4 is log_warning, check snmpcmd(1)
+OPTIONS="-LS4d -Lf /dev/null -p /var/run/snmpd.pid -a"
